@@ -13,6 +13,7 @@ import java.util.*;
 public class NfaToDfa {
     static final String epsilon = "e";
 
+
     ArrayList<State> states;
     ArrayList<Transition> transitions;
     String alphabet;
@@ -208,7 +209,7 @@ public class NfaToDfa {
 
         return s + "#" + this.alphabet + "#" + t + "#" + startState.toString() + "#" + a;
     }
-    
+
 
     class State implements Comparable<State> {
         ArrayList<Integer> ID;
