@@ -121,4 +121,5 @@ public class CfgLeftRecElim {
 		toStringVariables = vars.toString();
 		rules.putAll(newRules);
 	}
+
 }

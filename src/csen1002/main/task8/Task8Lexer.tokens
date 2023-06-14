@@ -1,0 +1,13 @@
+T__0=1
+IF=2
+ELSE=3
+LP=4
+RP=5
+COMP=6
+ID=7
+NUM=8
+LIT=9
+BLANK=10
+'it is an empty rule'=1
+'('=4
+')'=5

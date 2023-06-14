@@ -238,6 +238,7 @@ public class CfgFirstFollow {
 			res.append(";");
 		}
 		res.deleteCharAt(res.length() - 1);
+
 		return res.toString();
 	}
 
